@@ -1,0 +1,8 @@
+/ip firewall filter
+add action=drop chain=forward dst-address=162.62.0.0/16
+add action=drop chain=forward dst-address=49.51.0.0/16
+add action=drop chain=forward dst-address=191.235.0.0/16
+add action=drop chain=forward dst-address=150.109.0.0/16
+add action=drop chain=forward dst-address=119.28.0.0/16
+add action=drop chain=forward dst-address=20.37.0.0/16
+add action=drop chain=forward dst-address=162.14.0.0/16
